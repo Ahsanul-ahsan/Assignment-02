@@ -23,7 +23,7 @@ header{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
 }
 .name{
     list-style: none;
@@ -64,7 +64,6 @@ header{
   max-width: 1100px;
   margin: 0 auto;
 }
-
 
 .hero-image-container {
   position: relative;
@@ -157,7 +156,7 @@ header{
   width: 20px; 
 }
 
-
+/* style for about  */
 
 .about{
     background-color: #1c0829;
@@ -170,10 +169,10 @@ header{
     text-align: center;
 }
 .about-name{
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     padding-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .name-p{
     font-size: 12px;
@@ -186,7 +185,7 @@ header{
     color: #00FF88;
     font-size: 25px;
     padding-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 .card-info{
@@ -218,8 +217,8 @@ header{
 
 .why-title{
  color: #FFFFFF;
- font-size: 25px;
- padding-top: 15px;
+ font-size: 30px;
+ padding-top: 20px;
  text-align: center;
  margin-bottom: 30px;
 }
@@ -259,14 +258,12 @@ header{
 }
 .box-2{
     grid-column: span 3;
-    /* grid-row: span 4; */
     height: 110px;
     padding: 20px;
     border-radius: 20px;
 }
 .box-3{
     grid-column: span 3;
-    /* grid-row: span 4; */
     height: 110px;
     padding: 20px;
     border-radius: 20px;
@@ -364,6 +361,8 @@ header{
     font-size: 14px;
 }
 
+
+/* style for footer  */
 .footer{
    
    background-image: url(/assets/footer-bg.png);
@@ -372,9 +371,6 @@ header{
    margin: 0 auto;
    height: 250px;
    background-position: center;
-
-   
-
 }
 .footer-main{
    padding-top: 50px;
