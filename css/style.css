@@ -387,8 +387,6 @@ header{
     margin-top: 15px;
     
  }
-
-
     .navber-container{
         display: block;
     }
@@ -421,14 +419,10 @@ header{
     margin-top: 30px;
 
 }
-.featured-card :hover {
-    transform: scale(1.05);
-
-}
 
 .meet-container{
     display: block;
-    width: 350px;
+    width: 330px;
     height: 500px;
     margin-left: 10px;
     align-items: center;
@@ -450,6 +444,13 @@ header{
 .btn-primary{
     width: 200px;
 }
+
+.inter-font{
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 
