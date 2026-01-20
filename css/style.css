@@ -363,7 +363,6 @@ header{
 
 /* style for footer  */
 .footer{
-   
    background-image: url("../assets/footer-bg.png");
    background-repeat: no-repeat;
    max-width: 1100px;
@@ -373,4 +372,85 @@ header{
 }
 .footer-main{
    padding-top: 50px;
+}
+
+/* style for respose small divise */
+
+@media screen and (max-width: 576px) {
+ .navber-item .item-list{
+    display: block;
+    
+ }
+ .btn-1{
+    margin-right: 200px;
+    margin-left: 110px;
+    margin-top: 15px;
+    
+ }
+
+
+    .navber-container{
+        display: block;
+    }
+
+.box-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-container-1{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: 10px;
+    gap: 30px;
+    margin-right: 10px;
+   
+}
+.featured{
+    margin-top: 220px;
+}
+
+.featured-container{
+    display: block;
+    align-items: center;
+    margin-left: 35px;
+}
+.featured-card{
+    margin-top: 30px;
+
+}
+.featured-card :hover {
+    transform: scale(1.05);
+
+}
+
+.meet-container{
+    display: block;
+    width: 350px;
+    height: 500px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-main{
+   padding-top: 2px;
+}
+.footer{
+    margin-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.name-p{
+    padding: 5px;
+}
+
+.btn-primary{
+    width: 200px;
+}
+
+
+
 }
