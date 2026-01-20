@@ -57,7 +57,7 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0d0221;
+  /* background-color: #0d0221; */
   background-image: url(../image/hero-bg.png);
   background-size: cover;
   background-position: center;
